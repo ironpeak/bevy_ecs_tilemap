@@ -22,6 +22,7 @@ bevy = { version = "0.16.0", default-features = false, features = [
     "bevy_asset",
     "bevy_sprite",
     "bevy_log",
+    "serialize",
 ] }
 log = "0.4"
 serde = { version = "1", features = ["derive"], optional = true }
